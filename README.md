@@ -28,4 +28,4 @@ Resources:
 
 Images from www.unsplash.com
 
-Most of the text was generated from www.chatgpt.com
+Most of the text was generated from www.chat.openai.com
