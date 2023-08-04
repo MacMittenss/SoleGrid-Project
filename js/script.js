@@ -35,12 +35,13 @@ const items = document.querySelectorAll('article, aside');
 const isInViewport = el => {
     const rect = el.getBoundingClientRect();
     return (
-      rect.top >= 0 &&
+      rect.top <= 
+      (window.innerHeight / 5 * 3 || document.documentElement.clientHeight) &&
       rect.left >= 0 &&
       rect.bottom <=
         (window.innerHeight || document.documentElement.clientHeight)
     );
-  };
+};
 
   const run = () =>
   items.forEach(item => {
