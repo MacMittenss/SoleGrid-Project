@@ -30,7 +30,6 @@
 @media(max-width: 600px) {
   /* Stack Grid Items */
   #showcase .showcase-container,
-  #home-articles .articles-container,
   #main-footer .footer-container {
     grid-template-columns: 1fr;
   }
@@ -54,33 +53,294 @@
     grid-row: 1;
   }
 
-  .l-heading {
+  .sports-articles {
     font-size: 2rem;
   }
-}
 
-@media(max-width: 280px) {
-  .sports-articles {
-    line-height: 1.2;
-    font-size: 1.6rem;
+  #home-articles h2 {
+    font-size: 1.3rem;
   }
 
   .showcase-container div p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .card .category {
+    font-size: 0.6rem;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
     font-size: 0.9rem;
   }
 
+  /* Article/About Page */
+  .l-heading {
+    font-size: 1.5rem;
+  }
+
+  .meta {
+    gap: 20px;
+    border-right: #444;
+  }
+
+  small {
+    font-size: 0.8rem;
+  }
+
+  .list li {
+    font-size: 0.9rem;
+  }
+
+  .card h2 {
+    font-size: 1.1rem;
+  }
+
+  /* Footer */
   .footer-container {
     align-items: center;
   }
+  .footer-container p {
+    font-size: 1rem;
+  }
+
+  .footer-container h3 {
+    font-size: 1.3rem;
+  }
+
+  .footer-container input {
+    width: 90%;
+    padding: 0.4rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-container li {
+    font-size: 0.9rem;
+  }
+
+  .footer-container h2 {
+    font-size: 0.9rem;
+  }
+
+  .footer-container .btn-secondary {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.7rem;
+  }
 }
 
-@media(max-height: 400px) {
+@media(max-width: 450px) {
+  .articles-container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
   .sports-articles {
-    line-height: 0.5;
+    font-size: 1.5rem;
+  }
+
+  #home-articles h2 {
     font-size: 1rem;
   }
 
   .showcase-container div p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .card .category {
+    font-size: 0.4rem;
+  }
+
+  .card h3 {
+    font-size: 0.9rem;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+  }
+
+  /* Article/About Page */
+  .l-heading {
+    font-size: 1.1rem;
+  }
+
+  .meta {
+    gap: 20px;
+    border-right: #444;
+  }
+
+  small {
+    font-size: 0.8rem;
+  }
+
+  .list li {
+    font-size: 0.9rem;
+  }
+
+  .card h2 {
+    font-size: 1.1rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    align-items: center;
+  }
+  .footer-container p {
+    font-size: 0.8rem;
+  }
+
+  .footer-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .footer-container input {
+    width: 90%;
+    padding: 0.4rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .footer-container li {
+    font-size: 0.8rem;
+  }
+
+  .footer-container h2 {
+    font-size: 0.9rem;
+  }
+
+  .footer-container .btn-secondary {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+  }
+}
+
+@media(max-width: 280px) {
+  /* Home Page */
+  .container {
+    align-items: center;
+  }
+  .page-container {
+    margin: 0.7rem 0;
+    max-width: 250px;
+  }
+  
+  .sports-articles {
+    line-height: 1.2;
+    font-size: 1.1rem;
+  }
+
+  .showcase-container div p {
+    font-size: 0.7rem;
+  }
+
+  .showcase-content .btn-primary {
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  #home-articles {
+    padding: 15px;
+    align-items: center;
+  }
+
+  .card {
+    padding: 0.7rem;
+    width: 210px;
+  }
+
+  .articles-container {
+    align-items: center;
+  }
+
+  #home-articles .container h2 {
+    font-size: 1.1rem;
+  }
+
+  #home-articles .articles-container {
+    grid-gap: 0.7rem;
+  }
+
+  .card .category {
+    font-size: 0.4rem;
+  }
+
+  .card h3 {
+    font-size: 0.9rem;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
+
+  .btn-block {
+    font-size: 0.7rem;
+    align-items: center;
+  }
+
+  /* Article/About Page */
+  .l-heading {
+    font-size: 0.9rem;
+  }
+
+  .meta {
+    gap: 18px;
+    border-right: #444;
+  }
+
+  small {
+    font-size: 0.65rem;
+  }
+
+  .list li {
+    font-size: 0.7rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    align-items: center;
+  }
+  .footer-container p {
+    font-size: 0.7rem;
+  }
+
+  .footer-container h3 {
+    font-size: 0.9rem;
+  }
+
+  .footer-container input {
+    width: 90%;
+    padding: 0.4rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .footer-container li {
+    font-size: 0.7rem;
+  }
+
+  .footer-container h2 {
+    font-size: 0.9rem;
+  }
+
+  .footer-container .btn-secondary {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
   }
 }
