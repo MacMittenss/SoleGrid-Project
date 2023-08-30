@@ -29,3 +29,4 @@ Resources:
 Images from www.unsplash.com
 
 Most of the text was generated from www.chat.openai.com
+![item2](https://github.com/MacMittenss/SoleGrid-Project/assets/138247485/51368fb0-eeaf-451b-bd52-917f34c16945)
