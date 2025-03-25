@@ -32,30 +32,28 @@ let fadeIn = setInterval(() => {
 // For Scroll Animation  
 const items = document.querySelectorAll('article, aside');
 
-const isInViewport = el => {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top <= 
-      (window.innerHeight / 5 * 3 || document.documentElement.clientHeight) &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight)
-    );
+const isInViewport = (element) => {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top < window.innerHeight * 0.85 && 
+    rect.bottom > 0
+  );
 };
 
-  const run = () =>
-  items.forEach(item => {
+const run = () => {
+  items.forEach((item) => {
     if (isInViewport(item)) {
-      item.classList.add('show');
+      item.classList.add("show");
     }
   });
+};
 
-// Events
-window.addEventListener('load', run);
-window.addEventListener('resize', run);
-window.addEventListener('scroll', run);
+//Events//
+document.addEventListener("scroll", run);
+document.addEventListener("DOMContentLoaded", run);
 
-run, go();
+run();
+go();
 
 // Dynamic Article Loading //
 document.addEventListener("DOMContentLoaded", () => {
