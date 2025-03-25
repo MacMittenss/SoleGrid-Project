@@ -29,3 +29,6 @@ Resources:
 Images from www.unsplash.com
 
 Most of the text was generated from www.chat.openai.com
+
+
+![Screen Shot 2023-08-29 at 8 13 17 PM](https://github.com/MacMittenss/SoleGrid-Project/assets/138247485/82da4bbc-2c0a-4277-a5a3-816db68f9a4e)
