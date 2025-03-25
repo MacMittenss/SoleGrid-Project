@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Air Jordan 1 - The Sneaker Revolution",
+      "image": "img/aj1.jpg",
+      "category": "Sports",
+      "description": "The Air Jordan 1 changed the sneaker game forever, blending performance and style.",
+      "link": "article6.html"
+    },
+    {
+      "id": 2,
+      "title": "Nike Air Max 90 - Timeless Cushioning",
+      "image": "img/airmax90.jpg",
+      "category": "Tech",
+      "description": "The Air Max 90 introduced visible Air cushioning and remains a fan favorite.",
+      "link": "article7.html"
+    },
+    {
+      "id": 3,
+      "title": "Yeezy 350 - The Rise of Hype Culture",
+      "image": "img/yeezy350.jpg",
+      "category": "Entertainment",
+      "description": "Kanye West and Adidas reshaped sneaker culture with the Yeezy 350.",
+      "link": "article8.html"
+    },
+    {
+      "id": 4,
+      "title": "Converse Chuck Taylor - A Century of Cool",
+      "image": "img/chucktaylor.jpg",
+      "category": "Sports",
+      "description": "The Converse Chuck Taylor has remained a staple for over 100 years.",
+      "link": "article9.html"
+    },
+    {
+      "id": 5,
+      "title": "New Balance 990 - Dad Shoe Turned Icon",
+      "image": "img/nb990.jpg",
+      "category": "Tech",
+      "description": "Once a ‘dad shoe,’ the NB 990 has earned streetwear respect.",
+      "link": "article10.html"
+    },
+    {
+      "id": 6,
+      "title": "Puma Suede - Hip-Hop’s Favorite Sneaker",
+      "image": "img/puma.jpg",
+      "category": "Entertainment",
+      "description": "From breakdancing to basketball, the Puma Suede is a cultural icon.",
+      "link": "article11.html"
+    }
+  ]
+  
