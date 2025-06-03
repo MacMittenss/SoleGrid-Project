@@ -24,7 +24,7 @@ Articles are rendered dynamically from a local JSON file, giving the site struct
 - Responsive UI layout and interactive theming
 
 ## 🚀 Live Demo
-[SoleGrid](solegrid.netlify.app)
+[SoleGrid](https://solegrid.netlify.app)
 ---
 
 *Developed by Marcus Prater*
