@@ -133,8 +133,6 @@ h3 {
   border: 1px solid #d2d2d2;
   border-radius: 6px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  visibility: hidden;
-  opacity: 0;
   transition: all 0.2s ease-in-out;
   transform: translateY(0) !important;
 }
@@ -416,11 +414,13 @@ article.show:hover {
 
 .fade-in {
   opacity: 0;
+  visibility: hidden;
   transform: translateY(40px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .fade-in.visible {
   opacity: 1;
+  visibility: visible;
   transform: translateY(0);
 }

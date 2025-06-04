@@ -41,12 +41,15 @@
     </div>
   </header>
 
-  <!-- Home Articles -->
-<section id="home-articles" class="py-2" class="py-2 fade-in">
+<!-- Home Articles -->
+<section id="home-articles" class="py-2 fade-in">
   <div class="container">
       <h2>Editor Picks</h2>
-      <div class="articles-container">
-        <article class="card fade-in">
+
+      <!-- ▼▼▼ SINGLE CONTAINER FOR BOTH STATIC + DYNAMIC ARTICLES ▼▼▼ -->
+      <div class="articles-container" id="articles-container">
+        <!-- Static Articles -->
+        <article class="card fade-in visible">
           <img src="img/articles/ent1.jpg" alt="">
           <div>
             <div class="category category-ent">Vintage</div>
@@ -56,14 +59,16 @@
             <p>From thick soles to creased toes, this is the symbol of urban culture and style. The swoosh speaks for itself. No other footwear holds the crown.</p>
           </div>
         </article>
-        <article class="card bg-dark fade-in">
+
+        <article class="card bg-dark fade-in visible">
           <div class="category category-sports js-fadeInLeft">Info</div>
           <h3>
             <a>Check out grid blogs here!</a>
           </h3>
           <p>Discover the latest releases, exclusive collaborations, in-depth reviews, and fascinating stories that celebrate the iconic culture of footwear fashion.</p>
         </article>
-        <article class="card fade-in">
+
+        <article class="card fade-in visible">
           <img src="img/articles/tech1.jpg" alt="">
           <div class="category category-tech js-fadeInLeft">Sole Tech</div>
           <h3>
@@ -71,7 +76,8 @@
           </h3>
           <p>This iconic sneaker combines the cutting-edge technology of adidas innovation with Pharrell's creative flair, resulting in a truly unique and eye-catching design.</p>
         </article>
-        <article class="card fade-in">
+
+        <article class="card fade-in visible">
           <div class="category category-sports js-fadeInLeft">Sports</div>
           <h3>
             <a href="article3.html">Where Legacy Takes Flight</a>
@@ -79,7 +85,8 @@
           <p>The inaugural sneaker in the Air Jordan series. This iconic silhouette redefined basketball footwear and sneaker culture. Defying Gravity in Style.</p>
           <img src="img/articles/jordan-1.jpg" alt="">
         </article>
-        <article class="card fade-in">
+
+        <article class="card fade-in visible">
           <img src="img/articles/off-white.jpg" alt="">
           <div class="category category-tech js-fadeInLeft">Innovation</div>
           <h3>
@@ -87,14 +94,16 @@
           </h3>
           <p>Blurring the lines between streetwear and high-end luxury. The signature deconstructed aesthetic and distinctive branding.</p>
         </article>
-        <article class="card bg-primary fade-in">
+
+        <article class="card bg-primary fade-in visible">
           <div class="category category-sports js-fadeInLeft">Newsletter</div>
           <h3>
             <a href="article.html">The grid is calling</a>
           </h3>
           <p>Hear that? That's the sound of sole history. Never miss an alert from the grid, subscribe today!</p>
         </article>
-        <article class="card fade-in">
+
+        <article class="card fade-in visible">
           <div>
             <div class="category category-ent js-fadeInLeft">Minimal</div>
             <h3>
@@ -104,8 +113,10 @@
           </div>
           <img src="img/articles/ent2.jpg" alt="">
         </article>
+        <!-- Dynamic Articles will be injected here -->
       </div>
-      
+      <!-- ▲▲▲ SINGLE CONTAINER FOR ALL ARTICLES ▲▲▲ -->
+
       <!-- Load More Button -->
       <button id="load-more-btn" class="btn btn-primary">Load More</button>
   </div>

@@ -46,6 +46,189 @@
       "category": "Entertainment",
       "description": "From breakdancing to basketball, the Puma Suede is a cultural icon.",
       "link": "article11.html"
+    },
+    {
+      "id": 7,
+      "title": "Adidas Superstar - The Hip-Hop Icon",
+      "image": "images/adidas_superstar.jpg",
+      "category": "Fashion",
+      "description": "Made famous by Run-DMC, the Adidas Superstar became a staple in streetwear culture.",
+      "link": "article12.html",
+      "publish_date": "2025-04-01"
+    },
+    {
+      "id": 8,
+      "title": "Nike Dunk Low - Skater’s Favorite",
+      "image": "images/nike_dunk_low.jpg",
+      "category": "Sports",
+      "description": "Originally a basketball shoe, the Dunk Low became a favorite in skate culture.",
+      "link": "article13.html",
+      "publish_date": "2025-04-05"
+    },
+    {
+      "id": 9,
+      "title": "Asics Gel-Lyte III - Comfort Meets Heritage",
+      "image": "images/asics_gel_lyte.jpg",
+      "category": "Tech",
+      "description": "The split-tongue design and GEL technology made this an all-time favorite.",
+      "link": "article14.html",
+      "publish_date": "2025-04-15"
+    },
+    {
+      "id": 10,
+      "title": "New Balance 990 - Dad Shoe Trendsetter",
+      "image": "images/nb_990.jpg",
+      "category": "Fashion",
+      "description": "The New Balance 990 evolved from a performance running shoe to a fashion statement.",
+      "link": "article15.html",
+      "publish_date": "2025-04-20"
+    },
+    {
+      "id": 11,
+      "title": "Reebok Question - Iverson’s Legacy",
+      "image": "images/reebok_question.jpg",
+      "category": "Sports",
+      "description": "Worn by Allen Iverson, this sneaker remains one of the most iconic basketball shoes ever.",
+      "link": "article16.html",
+      "publish_date": "2025-04-25"
+    },
+    {
+      "id": 12,
+      "title": "Converse Chuck 70 - A Timeless Classic",
+      "image": "images/converse_chuck70.jpg",
+      "category": "Fashion",
+      "description": "The Chuck 70 continues to be one of the most versatile sneakers in history.",
+      "link": "article17.html",
+      "publish_date": "2025-04-30"
+    },
+    {
+      "id": 13,
+      "title": "Nike Air Presto - The T-Shirt for Your Feet",
+      "image": "images/nike_presto.jpg",
+      "category": "Tech",
+      "description": "The Presto changed the game with its stretchy, sock-like fit.",
+      "link": "article18.html",
+      "publish_date": "2025-05-05"
+    },
+    {
+      "id": 14,
+      "title": "Saucony Jazz - The Underrated Legend",
+      "image": "images/saucony_jazz.jpg",
+      "category": "Fashion",
+      "description": "A lightweight, stylish sneaker that has quietly remained a cult favorite.",
+      "link": "article19.html",
+      "publish_date": "2025-05-10"
+    },
+    {
+      "id": 15,
+      "title": "Vans Old Skool - Skater’s Dream",
+      "image": "images/vans_oldskool.jpg",
+      "category": "Sports",
+      "description": "With its durable suede and canvas build, the Old Skool is a go-to for skaters worldwide.",
+      "link": "article20.html",
+      "publish_date": "2025-05-15"
+    },
+    {
+      "id": 16,
+      "title": "Nike Foamposite - Ahead of Its Time",
+      "image": "images/nike_foamposite.jpg",
+      "category": "Tech",
+      "description": "A sneaker built with a futuristic design that pushed boundaries in the late ‘90s.",
+      "link": "article21.html",
+      "publish_date": "2025-05-20"
+    },
+    {
+      "id": 17,
+      "title": "Reebok Pump - The Inflation Sensation",
+      "image": "images/reebok_pump.jpg",
+      "category": "Tech",
+      "description": "The Pump technology allowed wearers to customize their fit with a built-in air bladder.",
+      "link": "article22.html",
+      "publish_date": "2025-05-25"
+    },
+    {
+      "id": 18,
+      "title": "Adidas Stan Smith - The Minimalist King",
+      "image": "images/adidas_stansmith.jpg",
+      "category": "Fashion",
+      "description": "One of the cleanest sneakers ever made, loved by sneakerheads and fashionistas alike.",
+      "link": "article23.html",
+      "publish_date": "2025-06-01"
+    },
+    {
+      "id": 19,
+      "title": "Air Jordan 11 - The Patent Leather Legend",
+      "image": "images/aj11.jpg",
+      "category": "Sports",
+      "description": "Worn by Michael Jordan during his championship run, the AJ11 is one of the most beloved Jordans.",
+      "link": "article24.html",
+      "publish_date": "2025-06-05"
+    },
+    {
+      "id": 20,
+      "title": "Nike Air Huarache - A Snug Fit Revolution",
+      "image": "images/nike_huarache.jpg",
+      "category": "Tech",
+      "description": "Designed by Tinker Hatfield, the Huarache introduced a unique exoskeleton fit.",
+      "link": "article25.html",
+      "publish_date": "2025-06-10"
+    },
+    {
+      "id": 21,
+      "title": "Fila Disruptor - Chunky Sneaker Era",
+      "image": "images/fila_disruptor.jpg",
+      "category": "Fashion",
+      "description": "The chunky sneaker trend saw a revival with the Fila Disruptor.",
+      "link": "article26.html",
+      "publish_date": "2025-06-15"
+    },
+    {
+      "id": 22,
+      "title": "Nike Blazer Mid - Vintage Basketball Roots",
+      "image": "images/nike_blazer.jpg",
+      "category": "Sports",
+      "description": "Originally a basketball shoe, the Blazer Mid found new life in streetwear and skateboarding.",
+      "link": "article27.html",
+      "publish_date": "2025-06-20"
+    },
+    {
+      "id": 23,
+      "title": "Under Armour Curry 1 - A New Era",
+      "image": "images/curry1.jpg",
+      "category": "Sports",
+      "description": "Steph Curry’s first signature shoe helped redefine modern basketball sneakers.",
+      "link": "article28.html",
+      "publish_date": "2025-06-25"
+    },
+    {
+      "id": 24,
+      "title": "Yeezy 500 - The Bulky Sneaker Renaissance",
+      "image": "images/yeezy500.jpg",
+      "category": "Fashion",
+      "description": "With its unconventional design, the Yeezy 500 became a statement sneaker.",
+      "link": "article29.html",
+      "publish_date": "2025-07-01"
+    },
+    {
+      "id": 25,
+      "title": "Mizuno Wave Rider - A Running Revolution",
+      "image": "images/mizuno_waverider.jpg",
+      "category": "Tech",
+      "description": "Mizuno’s wave plate technology brought a new standard of comfort to running shoes.",
+      "link": "article30.html",
+      "publish_date": "2025-07-05"
+    },
+    {
+      "id": 26,
+      "title": "Nike Hyperdunk - Performance Innovation",
+      "image": "images/nike_hyperdunk.jpg",
+      "category": "Sports",
+      "description": "Launched in 2008, the Hyperdunk introduced Flywire technology to basketball shoes.",
+      "link": "article31.html",
+      "publish_date": "2025-07-10"
     }
   ]
+  
+  
+    
   
